@@ -14,17 +14,9 @@
 				$url = $_GET['url']; //explode("/",$_GET['url']);
 				$respuesta = self::optenerVistaModelo($url);
 			}else{
-				$respuesta = 'Vista/session.php';
+				$respuesta = 'session';
 			} 
   
 			return $respuesta;
 		}	
-
-		public function cierreSesion(){
-
-			session_destroy();
-			header('location:vistainiciosesion');
-		} 	
-
-
 	}

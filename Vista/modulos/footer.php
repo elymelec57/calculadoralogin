@@ -1,8 +1,6 @@
 <footer class="contaier-fluid p-3 pie">
         <p class="text-center text-white">Derechos Reservados</p>
-  </footer>
-
- 
+</footer> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="Vista/js/jquery-3.4.1.min.js"></script> 

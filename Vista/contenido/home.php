@@ -1,11 +1,12 @@
 <?php 
-  
-  require_once 'Vista/modulos/head.php';
-  require_once 'Vista/modulos/vista-menusuperadministrador.php';
-
+    
+     if (!isset($_SESSION['usuario']) || !isset($_SESSION['pass'])) {
+        return header('location:session');
+     }
  ?>
 
-   <h2 class="container display-4 text-center mt-5">
+
+<h2 class="container display-4 text-center mt-5">
         <div class="row justify-content-center">
             <div class="col-xm-12 mt-4">
                 <img class="img-fluid" src="Vista/img/riesgocero2.jpeg">
@@ -96,8 +97,3 @@
         </div>
     </div>
 </div>
-
-<?php 
-
-  require_once 'Vista/modulos/footer.php';
-?>
