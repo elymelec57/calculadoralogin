@@ -1,7 +1,8 @@
 <?php 
 
 	require_once 'Modelo/claseadmin.php';
-
+if ($_POST) {
+	
 	$usuario = $_POST['usuario'];
 	$contrasena = $_POST['contrasena'];
 	
@@ -21,8 +22,12 @@
 		}
 		  else {
 
+		  		require_once 'Vista/contenido/session.php';
 		  		echo  $m = "<div><h4 class='text-center'>Usuario o contraseña incorrectos.</h4></div>";
 		}
 	}
+
+}// fin del if
+	
 
  ?>

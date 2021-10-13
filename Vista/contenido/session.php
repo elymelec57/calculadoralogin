@@ -8,7 +8,7 @@
 
     <!-- contenedor del formulario de iniciar sesion-->
     <div class="row justify-content-center mb-3 mt-5">
-        <form action="" method="POST" class="col-lg-4 cabeza">
+        <form action="sessionNull" method="POST" class="col-lg-4 cabeza">
           <div class="mb-3">
             <label for="" class="form-label text">Usuario</label>
             <input type="text" autocomplete="on" required="" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -22,11 +22,3 @@
         </form>
     </div>
 </section>
-<?php 
-  
-  if (isset($_POST['usuario']) && isset($_POST['contrasena'])) {
-      
-      require_once 'Controlador/controladorsesion.php';
-  }
-
- ?>
