@@ -1,8 +1,15 @@
 <footer class="contaier-fluid p-3 pie">
-        <p class="text-center text-white">Derechos Reservados</p>
+        <p class="text-center text-white">Desarrollado por: Desincode2021@gmail.com  <img src="Vista/img/desin-xs.png" alt=""></p>
 </footer> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+    ></script>
+    
     <script type="text/javascript" src="Vista/js/jquery-3.4.1.min.js"></script> 
     <script type="text/javascript" src="Vista/js/popper.min.js"></script>
     <script type="text/javascript" src="Vista/js/bootstrap.min.js"></script>

@@ -4,19 +4,40 @@
         return header('location:session');
      }
  ?>
+<header>
 
+<style>
+      #intro {
+        background-image: url(Vista/img/dolar.jpg);
+        height: 100vh;
+      }
 
-<h2 class="container display-4 text-center mt-5">
-        <div class="row justify-content-center">
-            <div class="col-xm-12 mt-4">
-                <img class="img-fluid" src="Vista/img/riesgocero2.jpeg">
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+
+<div id="intro" class="bg-image shadow-2-strong">
+  <div class="mask mt-5 h-100" style="background-color: rgba(0, 0, 0, 0.8);">
+
+    <h2 class="container display-4 text-center mt-5">
+            <div class="row justify-content-center">
+                <div class="col-xm-12 mt-4">
+                    <img class="img-fluid" src="Vista/img/riesgocero3.png">
+                </div>
             </div>
-        </div>
-  </h2>
+      </h2>
  
   <div class="container mt-2 bloque1">
 
-      <div class="row mb-3 justify-content-center">
+      <div class="row mb-3 justify-content-center mt-3">
         <div class="col-md-4 col-lg-4 text-center ">
               <select id="paises" name="paises" class="form-control">
               
@@ -43,16 +64,16 @@
 
           <div class="row">
             <div class=" mb-1 mt-1 col-xm-6 col-sm-6 col-md-3 col-lg-3 justify-content-center">
-              <button class="btn casilla" id="agregarp">Insertar</button>
+              <button class="btn btn-success casilla" id="agregarp">Insertar</button>
             </div>
             <div class=" mb-1 mt-1 col-xm-6 col-sm-6 col-md-3 col-lg-3">
-              <button class="btn casilla" id="actualizar">Actualizar</button>
+              <button class="btn  btn-success casilla" id="actualizar">Actualizar</button>
             </div>
             <div class=" mb-1 mt-1 col-xm-6 col-sm-6 col-md-3 col-lg-3 ">
-               <button class="btn casilla" id="eliminarp">Eliminar</button>
+               <button class="btn  btn-success casilla" id="eliminarp">Eliminar</button>
             </div>
             <div class=" mb-1 mt-1 col-xm-6 col-sm-6 col-md-3 col-lg-3 ">
-              <a href="controladorcerrarsesion"><button class="btn casilla" id="">Salir</button></a>
+              <a href="controladorcerrarsesion"><button class="btn  btn-success" id="">Salir</button></a>
             </div>
           </div>
         </div>
@@ -88,12 +109,17 @@
 
           <div class="row">
             <div class=" mb-1 mt-1 col-xm-6 col-sm-6 col-md-6 col-lg-6 text-center">
-              <button class="btn casilla" id="guardar">Guardar</button>
+              <button class="btn  btn-success" id="guardar">Guardar</button>
             </div>
             <div class=" mb-1 mt-1 col-xm-6 col-sm-6 col-md-6 col-lg-6 text-center">
-              <button class="btn casilla" id="atras">Atras</button>
+              <button class="btn  btn-success" id="atras">Atras</button>
             </div>
           </div>
         </div>
     </div>
 </div>
+
+    </div>
+</div>
+
+</header>
