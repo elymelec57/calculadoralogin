@@ -2,7 +2,7 @@
   <header>
     <style>
       #intro {
-        background-image: url(Vista/img/dolar.jpg);
+        background-image: url(Vista/img/dinero.jpg);
         height: 100vh;
       }
 

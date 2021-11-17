@@ -1,5 +1,5 @@
-<footer class="contaier-fluid p-3 pie">
-        <p class="text-center text-white">Desarrollado por: Desincode2021@gmail.com  <img src="Vista/img/desin-xs.png" alt=""></p>
+<footer class="contaier-fluid  pie">
+        <p class="text-center p-2 text-white">Desarrollado por: Desincode2021@gmail.com  <img class="img-fluid" src="Vista/img/desin-xs.png" alt=""></p>
 </footer> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
