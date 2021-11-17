@@ -25,12 +25,12 @@
     </style>
 
 <div id="intro" class="bg-image shadow-2-strong">
-  <div class="mask mt-5 h-100" style="background-color: rgba(0, 0, 0, 0.8);">
+  <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.8);">
 
     <h2 class="container display-4 text-center mt-5">
             <div class="row justify-content-center">
-                <div class="col-xm-12 mt-4">
-                    <img class="img-fluid" src="Vista/img/riesgocero3.png">
+                <div class="col-xm-12 mt-5">
+                    <img class="img-fluid mt-5" src="Vista/img/riesgocero3.png">
                 </div>
             </div>
       </h2>
